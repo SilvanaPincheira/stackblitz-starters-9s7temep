@@ -9,7 +9,6 @@ const menuItems = [
   { name: "Gestión de Ventas", href: "/ventas", icon: "📈" },
   { name: "Logística", href: "/logistica", icon: "🚚" },
   { name: "Inventarios", href: "/inventarios", icon: "📦" },
-  { name: "Promociones", href: "/promociones", icon: "🎯" },
   { name: "KPI", href: "/kpi", icon: "📊" },
   { name: "Metas", href: "/metas", icon: "🎯" },
   { name: "Facturas y NC", href: "/facturas", icon: "🧾" },
