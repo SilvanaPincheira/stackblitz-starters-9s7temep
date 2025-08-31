@@ -203,8 +203,8 @@ const DEFAULT_QUOTE: QuoteData = {
 /* =================== COMPONENTE =================== */
 type ClientMode = "existing" | "new";
 
-export default function CotizacionEjecutivaSheets({ initial = DEFAULT_QUOTE }: { initial?: QuoteData }) {
-  const [data, setData] = useState<QuoteData>(initial);
+export default function CotizacionEjecutivaSheets() {
+  const [data, setData] = useState<QuoteData>(DEFAULT_QUOTE);
   const [clientes, setClientes] = useState<SheetRow[]>([]);
   const [catalogo, setCatalogo] = useState<SheetRow[]>([]);
   const [rutToken, setRutToken] = useState("");
