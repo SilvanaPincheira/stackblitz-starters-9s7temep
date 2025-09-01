@@ -8,4 +8,6 @@ export default function Page() {
       <p>Estamos trabajando en esta sección. Vuelve pronto.</p>
     </main>
   );
-}
+  } 
+  //que funcione  
+  
